@@ -1,0 +1,13 @@
+{
+  "properties": [
+    {
+      "name": "app.inputFilePath",
+      "type": "java.lang.String",
+      "description": "Description for app.inputFilePath."
+    },
+    {
+      "name": "app.outputFilePath",
+      "type": "java.lang.String",
+      "description": "Description for app.outputFilePath."
+    }
+  ] }
