@@ -2,7 +2,7 @@ stream-editor is a Spring Boot API that edit text from a file called input.txt, 
 You can run the program in you favourite java IDE or build it in a container. To do so, please open a terminal in the project folder and type the command:
 docker build -t stream-editor .
 Wait until the image gets built and run it with the command:
-docker run -dp 8080:8080
+docker run stream-editor
 
 
 Now you can open localhost:8080/s/hello/world/ and it will substitute all occurrences of 'hello' with 'world'.
